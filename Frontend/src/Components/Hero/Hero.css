@@ -1,0 +1,29 @@
+.hero {
+  margin: 1.3rem 0;
+}
+
+.heroDiv {
+  background-image: url("../../Assets/Prague-1920x720_tcm9-5976.jpg");
+  height: 28rem;
+  border-radius: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+}
+
+.heroDiv h3 {
+  font-size: 2.7rem;
+  color: aliceblue;
+  font-family: Avenir;
+  font-weight: 900;
+}
+
+.heroDiv p {
+  color: aliceblue;
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
