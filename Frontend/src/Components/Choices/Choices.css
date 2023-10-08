@@ -1,0 +1,51 @@
+.choices {
+  margin: 10rem 0;
+}
+
+.choicesIconsDiv {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2.8rem;
+}
+
+.choicesIconsDiv div {
+  text-align: center;
+}
+
+.choicesIconsDiv div img {
+  width: 42%;
+}
+
+.choicesHeader {
+  text-align: center;
+  margin: 3.8rem auto;
+  width: 55%;
+}
+
+.choicesHeader h3 {
+  font-size: 2.3rem;
+  color: #673AB7;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.choicesHeader p {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.choicesIconsDiv div h4 {
+  color: #daad42;
+  font-weight: 600;
+  font-family: Avenir;
+  font-size: 1.6rem;
+  margin: 1rem 0 .5rem;
+}
+
+.choicesIconsDiv div p {
+  font-size: 1.1rem;
+  color: rgb(73, 73, 73);
+}
