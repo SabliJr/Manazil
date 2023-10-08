@@ -1,0 +1,78 @@
+.hero {
+  margin: 1.3rem 0;
+  position: relative;
+}
+
+.heroDiv {
+  background-image: url("../../Assets/pexels-toter-yau-5995636.jpg");
+  height: 28rem;
+  border-radius: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+}
+
+.heroDiv h3 {
+  font-size: 2.7rem;
+  color: #673AB7;
+  font-family: Avenir;
+  font-weight: 900;
+}
+
+.heroDiv p {
+  color: aliceblue;
+  font-family: Avenir;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.booking {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: azure;
+  padding: .8rem 1.8rem;
+  border-radius: 3rem;
+  width: 85%;
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.booking label {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  font-size: 1.3rem;
+  font-family: Avenir;
+  font-weight: 800;
+  gap: .3rem;
+  padding: 0 .42rem;
+  justify-content: center;
+}
+
+.bookingIcon {
+  font-size: 2.8rem;
+  color: #673AB7;
+}
+
+.booking label input {
+  font-size: 1rem;
+  padding: .3rem;
+  /* border: 2px; */
+  border-color: darkgrey;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  border-radius: .73rem;
+  color: darkgray;
+}
+
+.bookingDiv {
+  position: absolute;
+  bottom: -3rem;
+  right: 1.8rem;
+}

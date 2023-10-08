@@ -1,9 +1,13 @@
 import "./index.css";
 
+import Header from "./Components/Header/index";
+import Hero from "./Components/Hero/index";
+
 function App() {
   return (
-    <div className="App">
-      <h3>Hello There</h3>
+    <div className='App'>
+      <Header />
+      <Hero />
     </div>
   );
 }
