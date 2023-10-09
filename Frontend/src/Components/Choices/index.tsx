@@ -11,8 +11,8 @@ const Index = () => {
       <div className='choicesHeader'>
         <h3>Why to choose us ?</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, commodi
-          iusto accusantium laudantium facilis ex in ad hic officia enim!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          ullam! Lorem, ipsum dolor.
         </p>
       </div>
       <div className='choicesIconsDiv'>
@@ -20,24 +20,24 @@ const Index = () => {
           <img src={Choices} alt='' />
           <h4>Lots Of Choices</h4>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            repudiandae quasi omnis soluta libero architecto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, ullam!
           </p>
         </div>
         <div>
           <img src={EasyBooking} alt='' />
           <h4>Easy Booking</h4>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            repudiandae quasi omnis soluta libero architecto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, ullam!
           </p>
         </div>
         <div>
           <img src={CheckingIn} alt='' />
           <h4>Easy Check In</h4>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            repudiandae quasi omnis soluta libero architecto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, ullam!
           </p>
         </div>
       </div>

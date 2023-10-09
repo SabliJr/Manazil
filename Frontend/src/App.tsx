@@ -5,6 +5,7 @@ import Hero from "./Components/Hero/index";
 import Choices from "./Components/Choices/index";
 import PopularDestinations from "./Components/PopularDestinations/index";
 import NewsLetter from "./Components/NewsLetter/index";
+import Footer from "./Components/Footer/index";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Choices />
       <PopularDestinations />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }
