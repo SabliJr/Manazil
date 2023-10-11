@@ -1,0 +1,37 @@
+.footerText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLogoDiv p:first-of-type {
+  margin: .05rem 0 .7rem;
+  font-size: 1.2rem;
+  font-family: Avenir;
+  font-weight: 500;
+}
+
+.Footer {
+  margin: 3rem 0 2rem;
+  border-top: 1px solid darkgrey;
+}
+
+.footerLogoDiv p {
+  font-family: Avenir;
+  font-size: 1rem;
+}
+
+.footerLinks h3 {
+  color: #daad42;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footerLinks li {
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: Avenir;
+  font-weight: 500;
+}
