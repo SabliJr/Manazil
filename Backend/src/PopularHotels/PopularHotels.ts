@@ -1,0 +1,1 @@
+import { booking } from "hotels-scraper-js";
