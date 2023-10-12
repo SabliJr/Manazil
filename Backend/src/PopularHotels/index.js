@@ -16,3 +16,5 @@ export const getHotels = () => {
     )
     .then(console.log);
 };
+
+// export default getHotels;
