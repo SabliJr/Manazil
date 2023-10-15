@@ -1,12 +1,18 @@
-const PORT = 3800;
+const PORT = 8800;
 import express from "express";
-import { lovedHotels } from "./getHotels/lovedHotels.js";
+import cors from "cors";
+import { BookingHotels } from "./GetHotels/lovedHotels.js";
 
 const app = express();
+app.use(
+  cors({
+    origin: "http://localhost:3000/",
+  })
+);
 
-app.get("/hello", async (req, res) => {
+app.get("/lovedHotels", async (req, res) => {
   try {
-    const data = await lovedHotels();
+    const data = await BookingHotels();
     res.json(data);
   } catch (error) {
     console.error(error);
